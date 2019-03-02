@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc">
+
+<!--    &lt;!&ndash;配置包扫描路径&ndash;&gt;
+    <context:component-scan base-package="com.java.summary.springmvc"/>
+    &lt;!&ndash;启用注解&ndash;&gt;
+    <mvc:annotation-driven/>
+    &lt;!&ndash; 对转向页面的路径解析。prefix：前缀， suffix：后缀 &ndash;&gt;
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>-->
+
+</beans>
